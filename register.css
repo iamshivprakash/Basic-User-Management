@@ -1,0 +1,154 @@
+.register{
+    background: -webkit-linear-gradient(left, #1a508b, #0d335d);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left a{
+  text-decoration: none;
+  color: inherit;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 0 10%;
+}
+.tab-content .login-form{
+  padding: 0 10%;
+  margin-left: 20%;
+  width: 100%;
+}
+.btnLeft{
+    float: center;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 4%;
+    background: #202c45	;
+    color: #fff;
+    font-weight: 600;
+    width: 80%;
+    cursor: pointer;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 3%;
+    background: #202c45	;
+    color: #fff;
+    font-weight: 600;
+    width: 60%;
+    cursor: pointer;
+}
+.btnRegister:hover,
+.btnLeft:hover{
+  background:  #101c35;
+}
+.register .nav-tabs{
+    margin-top: 15%;
+    border: none;
+    background: #202c45;
+    border-radius: 1.5rem;
+    width: 85%;
+}
+.register .nav-tabs:hover{
+    background:  #101c35;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #000000;
+    border: 2px solid #87CEFA;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin: 3% 0;
+    /* margin-bottom: -15%; */
+    color: #495057;
+}
+@media screen and (max-width: 991px) {
+  .register .nav-tabs{
+      border: none;
+      background: #202c45;
+      border-radius: 1.5rem;
+      margin:6%;
+  }
+  .register-heading{
+      text-align: center;
+       margin: 0 0 4% 0;
+      color: #495057;
+  }
+  .register-right{
+      background: #f8f9fa;
+    border-radius: 5px;
+    margin: 0;
+  }
+  .register .register-form{
+      padding: 0 5%;
+      margin-left: 5%;
+  }
+  .register-left img{
+    margin: 5%;
+  }
+  .register{
+      margin-top: 0%;
+      padding: 0%;
+  }
+  .register-left{
+      margin-top: 0%;
+  }
+  .btnRegister{
+    margin: 5%;
+  }
+  .btnLeft{
+    margin: 5% 0 0 0;
+  }
+  .tab-content .login-form{
+    padding: 0 5%;
+    margin-left: 5%;
+  }
+  }
+
+
+.
